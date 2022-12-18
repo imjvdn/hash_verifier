@@ -20,9 +20,9 @@ def calculate_hash(filename, algorithm):
         elif algorithm == 'sha512':
             hash = hashlib.sha512(contents).hexdigest()
         elif algorithm == 'sha512_224':
-            hash = hashlib.sha512_224(contents).hexdigest()
+            hash = hashlib.sha3_224(contents).hexdigest()
         elif algorithm == 'sha512_256':
-            hash = hashlib.sha512_256(contents).hexdigest()
+            hash = hashlib.sha3_256(contents).hexdigest()
         else:
             print("Invalid algorithm")
             sys.exit(1)
