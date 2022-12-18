@@ -24,3 +24,5 @@ print("SHA-224 hash:", hash_sha224)
 print("SHA-256 hash:", hash_sha256)
 print("SHA-384 hash:", hash_sha384)
 print("SHA-512 hash:", hash_sha512)
+
+
