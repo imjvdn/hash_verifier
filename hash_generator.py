@@ -18,11 +18,9 @@ with open('test.txt', 'rb') as file:
     hash_sha512 = hashlib.sha512(contents).hexdigest()
 
 # Print the calculated hashes
-print("MD5 hash:", hash_md5)
-print("SHA-1 hash:", hash_sha1)
-print("SHA-224 hash:", hash_sha224)
-print("SHA-256 hash:", hash_sha256)
-print("SHA-384 hash:", hash_sha384)
-print("SHA-512 hash:", hash_sha512)
-
-
+print(f"{'MD5 hash:'} {hash_md5}")
+print(f"{'SHA-1 hash:'} {hash_sha1}")
+print(f"{'SHA-224 hash:'} {hash_sha224}")
+print(f"{'SHA-256 hash:'} {hash_sha256}")
+print(f"{'SHA-384 hash:'} {hash_sha384}")
+print(f"{'SHA-512 hash:'} {hash_sha512}")
